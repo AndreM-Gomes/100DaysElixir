@@ -1,4 +1,4 @@
-defmodule F do
+defmodule Fibonacci do
   def fibo(n,a\\0,b\\1) do
     cond do
       n==0->a
@@ -7,3 +7,5 @@ defmodule F do
     end
   end
 end
+# First Day
+# Fibonacci implemented with tail call recursion
